@@ -4,7 +4,7 @@
  * main - print a C program followed by a new line tp the standard error
  * Return:1
  * *
- */
+ **/
 
 int main(void)
 {
