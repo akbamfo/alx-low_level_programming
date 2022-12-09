@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main - print a C program 
+ * main - print a C program
  * Return: Always 1
  * *
  **/
