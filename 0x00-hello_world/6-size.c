@@ -3,7 +3,6 @@
  * main - print using c program of the size of various types on the computer
  * Return: 0
 */
-main(void)
 int main(void)
 {
 	char a;
@@ -12,10 +11,10 @@ int main(void)
 	long long int d;
 	float e;
 
-	printf("size of char: %lu byte(s)\n", (unsigned long)sizeof(a));
-	printf("size of int; %lu byte(s)\n", (unsigned long)sizeof(b));
-	printf("size of long int: %lu byte(s)\n", (unsigned long)sizeof(c));
-	printf("size of long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
-	printf("size of float: %lu byte(s)\n", (unsigned long)sizeof(e));
+	printf("Size of char: %i byte(s)\n", sizeof(a));
+	printf("Size of int; %i byte(s)\n", sizeof(b));
+	printf("Size of long int: %i byte(s)\n", sizeof(c));
+	printf("Size of long long int: %i byte(s)\n", sizeof(d));
+	printf("Size of float: %i byte(s)\n", sizeof(e));
 	return (0);
 }
