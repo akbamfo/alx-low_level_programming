@@ -3,6 +3,7 @@
  * main - print using c program of the size of various types on the computer
  * Return: 0
 */
+main(void)
 int main(void)
 {
 	char a;
