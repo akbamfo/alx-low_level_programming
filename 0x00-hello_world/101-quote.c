@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - print a C program followed by a new line tp the standard error
- *Return: always 1
+ *Return: Always 1
  */
 int main(void)
 {
