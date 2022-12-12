@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print combination of 3 digits in ascending order separated
+ * main - print combination of three digits in ascending order separated
  * by a comma and space
  *
  * Return: 0
