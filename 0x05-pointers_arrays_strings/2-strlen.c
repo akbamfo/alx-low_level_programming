@@ -1,4 +1,3 @@
-@@ - 0, 0 + 1, 16 @@
 #include "main.h"
 /**
  * _strlen - return the length of a string
