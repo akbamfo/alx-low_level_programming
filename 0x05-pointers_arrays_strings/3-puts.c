@@ -1,4 +1,4 @@
-@@ -1, 4 + 1, 4 @@
+@ -1, 4 + 1, 4 @
 include "main.h"
 #include "main.h"
 
@@ -10,11 +10,11 @@ include "main.h"
  */
 void _puts(char *str)
 {
-	int o = 0;
+	int i = 0;
 
-	while (str[o] != '\0')
+	while (str[i] != '\0')
 	{
-		_putchar(str[o]);
+		_putchar(str[i]);
 		i++;
 	}
 	_putchar('\n');
